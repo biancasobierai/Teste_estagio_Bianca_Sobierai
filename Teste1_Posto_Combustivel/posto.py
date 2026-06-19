@@ -1,14 +1,15 @@
 PRECO = {
-    "G": 5.50,  # Gasolina
-    "A": 4.20,  # Etanol
-    "D": 6.80   # Diesel
+    "G": 5.50,  
+    "A": 4.20,  
+    "D": 6.80  
 }
 
-tipoComb = input("""Selecione o tipo de combustível:
-                 
+tipoComb = input("""
 G - Gasolina
 A - Etanol
-D - Diesel
+D - Diesel\n
+Selecione o tipo de combustível:
+                 
 """).upper()
 
 litrosComb = float(input("Insira a quantidade de litros:\n"))
